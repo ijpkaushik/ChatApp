@@ -7,7 +7,7 @@ https://ijpkaushik-chat-app.netlify.app/
 ## ScreenShots
 
 ### Join Room Page
-<img src ="" height=auto width=800 />
+<img src ="https://github.com/ijpkaushik/ChatApp/blob/master/screenshots/joinRoom.png" height=auto width=800 />
 
 ### Chat Room Page
-<img src="" height=auto width=800 />
+<img src="https://github.com/ijpkaushik/ChatApp/blob/master/screenshots/chatRoom.png" height=auto width=800 />
