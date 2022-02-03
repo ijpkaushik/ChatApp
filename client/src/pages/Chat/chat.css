@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+}
+.left {
+	overflow: auto;
+	height: 100vh;
+	flex: 9;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: #0e1621;
+}
+
+.right {
+	flex: 3;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: rgba(23, 33, 43, 255);
+}
+
+@media only screen and (max-width: 600px) {
+	div.right {
+		display: none;
+	}
+}

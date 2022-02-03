@@ -1,0 +1,43 @@
+.infoBar {
+	background: rgba(23,33,43,255);
+	height: 10vh;
+	width: 75vw;
+	flex: 9;
+	display: flex;
+	flex-direction: column;
+}
+
+.innerContainer {
+	margin-top: 2%;
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin-left: 5%;
+	color: white;
+}
+
+.rightAlign {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	margin-right: 5%;
+}
+
+.onlineIcon {
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+.closeIcon {
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+	div.infoBar {
+	width: 100vw;
+	}
+}

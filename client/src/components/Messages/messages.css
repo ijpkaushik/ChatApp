@@ -1,0 +1,16 @@
+.messages {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 80vh;
+	width: 75vw;
+	flex: 9;
+	background-color: rgba(14,22,33,255);
+}
+.messages::-webkit-scrollbar {
+	display: none;
+}
+@media only screen and (max-width: 600px) {
+	.messages {
+	width: 100vw;
+	}
+}
